@@ -8,10 +8,10 @@ const Nav = () => {
     <nav>
       <div className="nav__left">Store</div>
       <div className="nav__middle">
-        <div className="input__wrapper">
+        {/* <div className="input__wrapper">
           <input type="text" />
           <i className="fas fa-search" />
-        </div>
+        </div> */}
       </div>
       <div className="nav__right">
         <div className="cart__icon">
