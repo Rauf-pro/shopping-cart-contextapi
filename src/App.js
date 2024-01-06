@@ -1,9 +1,14 @@
+import Cart from "./components/cart/Cart";
+import Nav from "./components/nav/Nav";
+import Home from "./pages/Home";
 
 
 function App() {
   return (
     <div className="App">
-      <h1>dj</h1>
+      <Nav/>
+      <Cart/>
+      <Home/>
     </div>
   );
 }
