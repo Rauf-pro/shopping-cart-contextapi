@@ -33,7 +33,7 @@ const Cart = () => {
             <div>Cart Total</div>
             <div></div>
             <div style={{ marginLeft: 5 }}>
-              {cartItems.reduce((amount, item) => item.price + amount, 0).toFixed(2)}
+              {cartItems.reduce((amount, item) => item.price + amount, 0).toFixed(2)} {opts.symbol}
             </div>
           </div>
         </div>
